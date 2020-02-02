@@ -1,14 +1,13 @@
-import React from 'react';
-import './App.css';
-import { Button } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div>
-<h1>Hi pipcka</h1>
- <Button variant="primary">JI esty</Button>
- </div>
+      <Header />
+    </div>
   );
 }
 
