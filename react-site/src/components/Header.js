@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import logo from "./logo192.png";
+import logo from "./logo512.png";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "../pages/Home"
 import News from "../pages/News"
