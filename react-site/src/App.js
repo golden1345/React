@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from './components/Header'
+import Foeter from './components/Footer'
 
 export default class App extends Component {
 
@@ -9,6 +10,7 @@ export default class App extends Component {
     return (
       <div>
         <Header />
+        <Foeter />
       </div>
     )
   }
