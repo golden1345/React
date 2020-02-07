@@ -13,7 +13,7 @@ export default class Header extends Component {
     return (
       <>
         <Navbar collapseOnSelect expand="md" bg="light" variant="light">
-          <Container className="justify-content-md-center">
+          <Container className="justify-content-md-center py-3">
             <Row>
               <Navbar.Brand href="/">
                 <img
