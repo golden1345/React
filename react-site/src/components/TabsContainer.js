@@ -23,12 +23,12 @@ export default class TabsContainer extends Component {
                                 <p>KJSFAhhlashfskdjhkshdkfjhskdfh</p>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
-                                   <p>KJSFAhhlashfskdjhkshdkfjhskdfh</p>
                                 </Tab.Pane>
                             </Tab.Content>
                         </Col>
                     </Row>
                 </Tab.Container>
+
             </Container>
         )
     }
