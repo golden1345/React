@@ -23,6 +23,11 @@ export default class Weather extends Component {
                     </Container>
 
                 }
+                <Container>
+                    <Row>
+            <p>{this.props.error}</p>
+                    </Row>
+                </Container>
 
             </div>
         )

@@ -38,7 +38,16 @@ export default class App extends Component {
         country: data.sys.country,
         wind: data.wind.speed,
         sunset: sunset_date,
-        error: ""
+        error: undefined
+      });
+    } else {
+      this.setState({
+        temp: undefined,
+        city: undefined,
+        country: undefined,
+        sunrise: undefined,
+        sunset: undefined,
+        error: "Введи город уродец мелкий!"
       });
     }
   }
