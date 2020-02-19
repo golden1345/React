@@ -1,17 +1,17 @@
-import React, { Component } from 'react'
+import React from 'react'
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from './components/Header'
 import Foeter from './components/Footer'
 
-export default class App extends Component {
+const App = () =>{
 
-  render() {
-    return (
-      <div>
-        <Header />
-        <Foeter />
-      </div>
-    )
-  }
+  return(
+    <div>
+      <Header />
+      <Foeter />
+    </div>
+  );
 }
+
+export default App;
